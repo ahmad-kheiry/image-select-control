@@ -1,0 +1,28 @@
+.elementor-visual-control-wrapper {
+	margin-top: 5px;
+}
+.elementor-each-visual-control-wrapper {
+    width: 45%;
+    float: left;
+    text-align: center;
+    position: relative;
+    margin-bottom: 5px;
+}
+.elementor-each-visual-control-wrapper:nth-child(2n+1) {
+	margin-right: 5px;
+}
+.elementor-each-visual-control-wrapper:nth-child(2n) {
+	margin-left: 5px;
+}
+.elementor-each-visual-control-wrapper input[type="radio"] {
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    opacity: 0;
+}
+.elementor-each-visual-control-wrapper img {
+	width: calc(100% - 5px);
+}
+.elementor-each-visual-control-wrapper input:checked + img {
+	border: 1px solid black;
+}
