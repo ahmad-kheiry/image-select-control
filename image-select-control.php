@@ -26,7 +26,7 @@ function ak_plugin_init() {
 $this->add_control(
     'image_select_control_test',
     [
-        'label' =>esc_html__( 'Image URL', 'pinkmart' ),
+        'label' =>esc_html__( 'Image URL', 'ak-plugin' ),
         'type' => 'image-select-control',
         'options' => array(
             'fade' => array(
